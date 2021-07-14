@@ -1,0 +1,233 @@
+body{
+	background-color:#f2f2f2;
+}
+
+.sidebar{
+	position:absolute;
+	left:0;
+	width:15%;
+	height:100vh;
+	background-color: rgba(11, 94, 215,1);
+	font-family: 'Roboto', sans-serif;
+}
+
+.sidebar ul{
+	background-color: rgba(11, 94, 215,1);
+}
+
+.sidebar ul li #sanggar-senam{
+	padding:10px;
+}
+
+.sidebar ul li{
+	padding:8px;
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color: rgba(11, 94, 215,1);
+	color:white;
+	border:none;
+}
+
+.sidebar ul .nav:hover{
+	background-color:rgba(0,150,247,10);
+	border:1px solid white;
+}
+
+.sidebar ul #name:hover{
+	background-color:rgba(0,179,247,1);
+}
+
+.sidebar ul li a{
+	color:white;
+	text-decoration:none;
+	font-size:1em;
+	padding-left:10%;
+}
+
+.sidebar #username{
+	background-color:rgba(0,179,247,1);
+}
+
+.sidebar .list-group .nav{
+	
+}
+
+.top-nav{
+	position:absolute;
+	width:100%;
+	height:6.5vh;
+	background-color:white;
+}
+
+.top-nav #notif{
+	position:relative;
+	float:right;
+	margin-top:5px;
+	margin-right:5%;
+}
+.top-nav #notif #counter{
+	position:absolute;
+	right:5px;
+	top:3px;
+	background-color:red;
+	border-radius:50%;
+	color:white;
+	height:20px;
+	width:20px;
+	font-family:'Arial';
+	font-size:14px;
+}
+
+.top-nav #notif #bell{
+	width:28px;
+	height:28px;
+}
+
+.top-nav .dropdown-menu{
+}
+.top-nav .dropdown-menu p{
+	height:80px;
+	white-space: initial;	
+}
+
+#jadwal-title{
+	font-family: 'Roboto', sans-serif;
+	padding:18px;
+	text-align:center;
+}
+
+#info{
+	position:absolute;
+	left:30%;
+}
+
+
+.main{
+	width: 80%; 
+	margin-left: 15%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.main #jadwal-title{
+	padding-top:80px;
+	margin-left:5%;
+	text-align:left;
+	font-family:'Arial';
+}
+
+.main .jadwal-saya{
+	width: 50%;
+	margin-left:5%;
+	background-color:#f2f2f2;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	
+}
+
+.main .jadwal-saya .card{
+	min-width:240px;
+	min-height:200px;
+	margin:8px;
+	color:grey;
+}
+.main .jadwal-saya #atas-nama{
+	color:black;
+	font-weight:600;
+	background-color:#f2f2f2;
+	padding:8px;
+	border-radius:5px;
+}
+
+.main .jadwal-saya #status{
+	color:black;
+}
+
+.main .jadwal-saya .card-text{
+	margin-left:12px;
+}
+
+#confirm{
+	text-align:center;
+	border:1px solid green;
+	width: 120px;
+	height: auto;
+	padding:2px;
+	margin: 0 auto;
+	background-color:green;
+	color:white;
+	border-radius:5px;
+	font-size:15px;
+}
+
+#not-confirm{
+	text-align:center;
+	border:1px solid red;
+	width: 180px;
+	height: auto;
+	padding:2px;
+	margin: 0 auto;
+	background-color:red;
+	color:white;
+	border-radius:5px;
+	font-size:15px;
+}
+
+/* -- BOOKING PAGE -- */
+
+.book-jadwal-table .container-table{
+	width:100%;
+	height:80vh;
+	padding-top:75px;
+	
+}
+#jadwal-title-book{
+	font-family: 'Roboto', sans-serif;
+	margin-left:19.5%;
+	margin-bottom:25px;
+	padding:10px;
+}
+.book-jadwal-table .container-table .table{
+	width:65%;
+	margin-left:20%;
+	background-color:white;
+	border:1px solid #f2f2f2;
+	text-align:center;
+}
+.main .jadwal-saya #belum-ada-jadwal{
+	position:absolute;
+	font-family:'Roboto', sans-serif;
+	text-align:center;
+	top:20%;
+	left:48%;
+	background-color:white;
+	width:280px;
+	height:200px;
+}
+
+#belum-ada-jadwal h5{
+	padding:16px;
+}
+#belum-ada-jadwal h6{
+	padding:8px;
+}
+
+#belum-ada-jadwal a{
+}
+
+#table-admin{
+	width:80%;
+	margin-left:15%;
+}
+
+.bantuan{
+	width:100%;
+	padding-top:5%;
+}
+.bantuan h3{
+	padding:18px;
+}
+
+.bantuan .container-bantuan{
+	margin-left:15%;
+}
